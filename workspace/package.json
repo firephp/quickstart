@@ -18,7 +18,7 @@
         "modules": {
             "id": "github.com/pinf/modules-js/"
         },
-        "firephp-1" {
+        "firephp-1": {
             "id": "firephp.org/firephp/"
         },
         "zf-1": {
