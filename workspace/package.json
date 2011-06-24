@@ -18,6 +18,9 @@
         "modules": {
             "id": "github.com/pinf/modules-js/"
         },
+        "firephp-1" {
+            "id": "firephp.org/firephp/"
+        },
         "zf-1": {
             "id": "framework.zend.com/releases/ZendFramework-1/"
         },

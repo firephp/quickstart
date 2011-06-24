@@ -42,6 +42,10 @@ exports.main = function(env)
 
 UTIL.forEach([
     {
+        alias: "firephp-1",
+        mode: "replace"
+    },
+    {
         alias: "zf-1",
         mode: "replace",
         exclude: [

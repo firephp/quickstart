@@ -1,5 +1,14 @@
 {
     "packages": {
+        "firephp.org/firephp/": {
+            "locator": {
+                "archive": "http://docs.sourcemint.org/firephp.org/firephp/master/-bundles/firephp.all.zip",
+                "resource": true
+            },
+            "descriptor": {
+                "uid": "https://firephp.org/firephp/"
+            }
+        },
         "framework.zend.com/releases/ZendFramework-1/": {
             "locator": {
                 "archive": "http://framework.zend.com/releases/ZendFramework-1.11.7/ZendFramework-1.11.7-minimal.zip",
