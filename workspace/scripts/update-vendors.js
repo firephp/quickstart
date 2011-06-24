@@ -43,7 +43,10 @@ exports.main = function(env)
 UTIL.forEach([
     {
         alias: "firephp-1",
-        mode: "replace"
+        mode: "replace",
+        exclude: [
+            "/0.0.0master*-firephp"
+        ]
     },
     {
         alias: "zf-1",
