@@ -5,22 +5,23 @@ Getting started with FirePHP 1.0
 
 *Stability: dev*
 
-This project contains everything you need to get started with [FirePHP 1.0](http://docs.sourcemint.org/firephp.org/1).
-
-FirePHP is an advanced logging system that can display PHP variables in the browser as an application is navigated.
-All communication is out of band to the application meaning that the logging data will not interfere with the normal functioning of the application.
+This project contains everything you need to get started with hands-on learning about [FirePHP 1.0](http://docs.sourcemint.org/firephp.org/firephp/1) 
+and includes examples on how to use FirePHP in various scenarios.
 
 You can install this project to:
 
-  * Expore all FirePHP features with examples from popular open source projects
+  * Explore all FirePHP features with examples from popular open source projects
   * Learn how to install and configure FirePHP by example
   * Learn how to integrate FirePHP into frameworks by example
   * Learn how to integrate FirePHP into applications by example
 
-All examples are intended to be explored together with the official FirePHP 1.0 documentation at:
-[http://docs.sourcemint.org/firephp.org/1](http://docs.sourcemint.org/firephp.org/1)
+Relevant third party projects are bundled meaning this project is quite large when downloading. If you are looking for documentation
+on how to install and use FirePHP, and you do not need in-depth examples, please refer to the official
+FirePHP documentation at: [http://docs.sourcemint.org/firephp.org/firephp/1](http://docs.sourcemint.org/firephp.org/firephp/1)
 
-NOTE: This project is a work in progress and contributions are welcome.
+NOTE: This project is not intended to showcase integrations with all or even many projects but rather focus on
+various types of use-cases. Reference integrations for third party projects will be published as individual projects 
+here: [https://github.com/firephp](https://github.com/firephp)
 
 
 Install
@@ -50,16 +51,23 @@ On a UNIX system with `git` installed:
   2. Browse to `http://localhost/` using [Firefox 4+](http://www.mozilla.com/en-US/firefox/new/). You should see a welcome page.
 
 
+Examples
+========
+
+  * `/examples/ZendFramework-1/` - How to use FirePHP with [ZendFramework](http://framework.zend.com/) based on
+    the [ZendFramework Quick Start Application](http://framework.zend.com/manual/en/learning.quickstart.html).
+
+
 Support & Feedback
 ==================
 
-See: [http://docs.sourcemint.org/firephp.org/1/-docs/OpenSource#support](http://docs.sourcemint.org/firephp.org/1/-docs/OpenSource#support)
+See: [http://docs.sourcemint.org/firephp.org/firephp/1/-docs/OpenSource#support](http://docs.sourcemint.org/firephp.org/firephp/1/-docs/OpenSource#support)
 
 
 Contribute
 ==========
 
-See: [http://docs.sourcemint.org/firephp.org/1/-docs/OpenSource#contribute](http://docs.sourcemint.org/firephp.org/1/-docs/OpenSource#contribute)
+See: [http://docs.sourcemint.org/firephp.org/firephp/1/-docs/OpenSource#contribute](http://docs.sourcemint.org/firephp.org/firephp/1/-docs/OpenSource#contribute)
 
 
 Author
