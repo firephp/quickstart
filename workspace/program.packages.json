@@ -1,0 +1,22 @@
+{
+    "packages": {
+        "framework.zend.com/releases/ZendFramework-1/": {
+            "locator": {
+                "archive": "http://framework.zend.com/releases/ZendFramework-1.11.7/ZendFramework-1.11.7-minimal.zip",
+                "resource": true
+            },
+            "descriptor": {
+                "uid": "https://framework.zend.com/releases/ZendFramework-1/"
+            }
+        },
+        "framework.zend.com/demos/ZendFramework-1/Quickstart/": {
+            "locator": {
+                "archive": "http://framework.zend.com/demos/ZendFrameworkQuickstart.zip",
+                "resource": true
+            },
+            "descriptor": {
+                "uid": "https://framework.zend.com/demos/ZendFramework-1/Quickstart/"
+            }
+        }
+    }
+}

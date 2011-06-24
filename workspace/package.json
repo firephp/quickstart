@@ -1,0 +1,28 @@
+{
+    "uid": "https://github.com/firephp/quickstart/",
+    "name": "quickstart",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git://github.com/firephp/quickstart.git"
+        }
+    ],
+    "main": "lib/main.js",
+    "scripts": {
+        "update-vendors": {
+            "location": "./",
+            "module": "/scripts/update-vendors.js"
+        }
+    },
+    "mappings": {
+        "modules": {
+            "id": "github.com/pinf/modules-js/"
+        },
+        "zf-1": {
+            "id": "framework.zend.com/releases/ZendFramework-1/"
+        },
+        "zf-1-quickstart": {
+            "id": "framework.zend.com/demos/ZendFramework-1/Quickstart/"
+        }
+    }
+}
