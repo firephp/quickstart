@@ -1,4 +1,5 @@
 {
+    "uid": "https://github.com/firephp/quickstart/examples/ZendFramework-1/",
     "implements": {
         "cadorn.org/strawman/git/commitset/0.1": {
             "baseRevision": "ab77713f3975c7132d3ecac54cef63540fa7dda8"
