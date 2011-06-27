@@ -9,7 +9,7 @@ require_once(dirname(dirname(dirname(__FILE__))) . '/www/common.php');
     <body><table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%">
         <tr>
             <td>
-                <div style="overflow-y: scroll; height: 300px; padding: 10px;">
+                <div style="overflow-y: scroll; height: 350px; padding: 10px;">
                     <h1>Basic Setup: constants</h1>
 
                     <p>Use this setup if you want to get FirePHP working with minimal fuss. It should work for most PHP
