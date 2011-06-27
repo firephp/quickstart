@@ -1,0 +1,8 @@
+{
+    "uid": "https://github.com/firephp/quickstart/examples/FrameworkSimple/",
+    "implements": {
+        "cadorn.org/strawman/-meta/git/commitset/0.1": {
+            "baseRevision": "96a8dea659add778e606fa640be6d4e3266429ef"
+        }
+    }
+}
