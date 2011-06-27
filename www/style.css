@@ -1,0 +1,18 @@
+HTML, BODY, TD {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+}
+HTML, BODY {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+H1 {
+    font-size: 16px;
+}
+H2 {
+    font-size: 11px;
+}
