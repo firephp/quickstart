@@ -1,6 +1,11 @@
 <?php
-
+// Add the Zend Framework library to the include path
 set_include_path(dirname(dirname(dirname(dirname(__FILE__)))) . '/vendor/zf-1/library' . PATH_SEPARATOR . get_include_path());
+
+// Configure and include FirePHP
+define('INSIGHT_CONFIG_PATH', dirname(dirname(__FILE__)) . '/package.json');
+require_once(dirname(dirname(dirname(dirname(__FILE__)))) . '/vendor/firephp-1/lib/FirePHP/Init.php');
+// FirePHP can be used anywhere in the application after this point
 
 // Define path to application directory
 defined('APPLICATION_PATH')
