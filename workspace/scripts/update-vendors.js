@@ -45,7 +45,9 @@ UTIL.forEach([
         alias: "firephp-1",
         mode: "replace",
         exclude: [
-            "/0.0.0master*-firephp"
+            "/0.0.0master*-firephp",
+            "/examples",
+            "/tests"
         ]
     },
     {
