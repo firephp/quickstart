@@ -1,0 +1,63 @@
+<?php
+
+require_once(dirname(dirname(dirname(__FILE__))) . '/www/common.php');
+
+?><html>
+    <head>
+        <link href="/www/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body><table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%">
+        <tr>
+            <td>
+                <div style="overflow-y: scroll; height: 300px; padding: 10px;">
+                    <h1>Basic Setup: constants</h1>
+
+                    <p>Use this setup if you want to get FirePHP working with minimal fuss. It should work for most PHP
+                       environments by using the default FirePHP configuration.</p>
+
+                    <p>You can browser the source files for this example on <a target="_blank" href="https://github.com/firephp/quickstart/tree/master/examples/BasicSetupConstants/">github</a> or your system (if installed locally) at <b><?php echo $basePath.'/examples/BasicSetupConstants/'; ?></b>.</p>
+
+                    <h2>Some assumptions for this example</h2>
+
+                    <ul>
+                        <li>The document root is at: <b><?php echo $basePath; ?></b></li>
+                        <li>The application root URL is: <b><?php echo $baseURL; ?>/examples/BasicSetupConstants/</b> (i.e. The URL to the root of this example which we are treating as an application)</li>
+                        <li>Thus the <a target="_blank" href="http://docs.sourcemint.org/firephp.org/firephp/1/-docs/Concepts#insight-server-path">Insight Server Path</a> is: <b>/examples/BasicSetupConstants/</b></li>
+                    </ul>
+
+                    <h2>Instructions</h2>
+
+                    <ol>
+                        <li>Open <i>DeveloperCompanion</i> and click <i>New Workspace</i> (<a target="_blank" href="http://docs.sourcemint.org/firephp.org/firephp/1/-docs/Configuration/Constants">detailed instructions</a>)
+
+                            <p style="padding: 5px; border: 1px solid #acacac; background-color: #DBFFE6;"><span style="color: #8c8c8c; font-weight: bold;">Homepage URL:</span><b><br/><?php echo $baseURL; ?>/examples/BasicSetupConstants/</b></p>
+
+                            <p style="padding: 5px; border: 1px solid #acacac; background-color: #DBFFE6;"><span style="color: #8c8c8c; font-weight: bold;">Configure and Include FirePHP in Application:</span><b><br/>Simple (constants)</b></p>
+
+                        </li>
+                        <li><b>[already done]</b> Copy the generated code into your <a target="_blank" href="http://devzone.zend.com/article/70">bootstrap</a> file. (Show: <a target="example-content" href="/www/show-file.php?path=/examples/BasicSetupConstants/bootstrap.php">/examples/BasicSetupConstants/bootstrap.php</a>)</li>
+                        <li>Click <i>Add Workspace</i> in <i>DeveloperCompanion</i>.</li>
+                        <li><a target="example-content" href="index.php">Browse example</a></li>
+                    </ol>
+
+                    <h2>While the example pages are navigated</h2>
+
+                    <ul>
+                        <li>
+                            <p>Look for log messages in the <b><a target="_blank" href="http://getfirebug.com/">Firebug</a> <a target="_blank" href="http://getfirebug.com/commandline">Console</a></b>. You must have <i>Firebug</i> and the <i>Firebug Console</i> and <i>Net</i> panels enabled.</p>
+                        </li>
+                        <li>
+                            <p>Look for requests in the <i>Requests</i> table of the <i>Workspace</i> you setup above in the <i>DeveloperCompanion</i> window. Select a request to see detailed information. When done click on the red <i>X</i> next to <i>Request</i> near the top of the window to go back to all requests.</p>
+                        </li>
+                    </ul>
+
+
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td height="100%" style="border-top: 1px solid black;"><iframe name="example-content" border="0" frameBorder="0" style="border: 0 px;" width="100%" height="100%"></iframe></td>
+        </tr>
+    </table></body>
+</html>
