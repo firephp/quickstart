@@ -60,7 +60,7 @@ UTIL.forEach([
     {
         alias: "zf-1-quickstart",
         mode: "merge",
-        targetPath: basePath + "/examples/ZendFramework-1",
+        targetPath: basePath + "/examples/FrameworkSimple",
         exclude: [
             "/ZendFrameworkQuickstart-*"
         ]
