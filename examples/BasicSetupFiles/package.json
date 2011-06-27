@@ -1,0 +1,10 @@
+{
+    "uid": "https://github.com/firephp/quickstart/examples/BasicSetupFiles/",
+    "implements": {
+        "cadorn.org/insight/@meta/config/0": {
+            "server": {
+                "path": "/examples/BasicSetupFiles/public/"
+            }
+        }
+    }
+}

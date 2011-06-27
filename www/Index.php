@@ -22,10 +22,12 @@
                 <br/>
 
                 <h2>Basic Setup: constants</h2>
-
-                <p>Configure FirePHP via <i>constants</i>. The most simple approach.</p>
-
+                <p>Setup FirePHP via <i>constants</i>. The most simple approach.</p>
                 <p><a target="content" href="/examples/BasicSetupConstants/README.php">Show</a></p>
+
+                <h2>Basic Setup: files</h2>
+                <p>Setup FirePHP via <i>configuration files</i>. The most flexible and <b>recommended approach</a>.</p>
+                <p><a target="content" href="/examples/BasicSetupFiles/README.php">Show</a></p>
 
             </td>
             <td valign="top" width="100%"><iframe name="content" style="border: 1px solid black;" frameBorder="1" border="1" width="100%" height="100%"></iframe></td>

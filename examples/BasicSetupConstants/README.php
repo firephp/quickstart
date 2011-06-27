@@ -13,7 +13,8 @@ require_once(dirname(dirname(dirname(__FILE__))) . '/www/common.php');
                     <h1>Basic Setup: constants</h1>
 
                     <p>Use this setup if you want to get FirePHP working with minimal fuss. It should work for most PHP
-                       environments by using the default FirePHP configuration.</p>
+                       environments by using the default FirePHP configuration. If you need a more configurable setup see the
+                        <a href="../BasicSetupFiles">Basic Setup: Files</a> example.</p>
 
                     <p>You can browser the source files for this example on <a target="_blank" href="https://github.com/firephp/quickstart/tree/master/examples/BasicSetupConstants/">github</a> or your system (if installed locally) at <b><?php echo $basePath.'/examples/BasicSetupConstants/'; ?></b>.</p>
 
@@ -35,7 +36,8 @@ require_once(dirname(dirname(dirname(__FILE__))) . '/www/common.php');
                             <p style="padding: 5px; border: 1px solid #acacac; background-color: #DBFFE6;"><span style="color: #8c8c8c; font-weight: bold;">Configure and Include FirePHP in Application:</span><b><br/>Simple (constants)</b></p>
 
                         </li>
-                        <li><b>[already done]</b> Copy the generated code into your <a target="_blank" href="http://devzone.zend.com/article/70">bootstrap</a> file. (Show: <a target="example-content" href="/www/show-file.php?path=/examples/BasicSetupConstants/bootstrap.php">/examples/BasicSetupConstants/bootstrap.php</a>)</li>
+                        <li><b>[already done]</b> Copy the generated code into the <a target="_blank" href="http://devzone.zend.com/article/70">bootstrap</a> file. (Show: <a target="example-content" href="/www/show-file.php?path=/examples/BasicSetupConstants/bootstrap.php">/examples/BasicSetupConstants/bootstrap.php</a>)
+                            <p>NOTE: Typically the <i>INSIGHT_AUTHKEYS</i> constant should be set to the key provided by <i>DeveloperCompanion</i> in the generated code. Using '*' will allow <b>ALL</b> clients.</p></li>
                         <li>Click <i>Add Workspace</i> in <i>DeveloperCompanion</i>.</li>
                         <li><a target="example-content" href="index.php">Browse example</a></li>
                     </ol>
@@ -51,8 +53,9 @@ require_once(dirname(dirname(dirname(__FILE__))) . '/www/common.php');
                         </li>
                     </ul>
 
+                    <h2>More Information</h2>
 
-
+                    <p>See: <a target="_blank" href="http://docs.sourcemint.org/firephp.org/firephp/1/-docs/Configuration/Constants">http://docs.sourcemint.org/firephp.org/firephp/1/-docs/Configuration/Constants</a></p>
                 </div>
             </td>
         </tr>
