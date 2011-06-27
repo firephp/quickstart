@@ -4,6 +4,9 @@
         "cadorn.org/insight/@meta/config/0": {
             "server": {
                 "path": "/examples/FrameworkSimple/public/"
+            },
+            "paths": {
+                "./../../vendor/zf-1/": "allow"
             }
         },
         "cadorn.org/strawman/-meta/git/commitset/0.1": {
