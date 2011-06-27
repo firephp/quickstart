@@ -1,4 +1,7 @@
 <?php
+
+set_include_path(dirname(dirname(dirname(dirname(__FILE__)))) . '/vendor/zf-1/library' . PATH_SEPARATOR . get_include_path());
+
 // Define path to application directory
 defined('APPLICATION_PATH')
     || define('APPLICATION_PATH', realpath(dirname(__FILE__) . '/../application'));
