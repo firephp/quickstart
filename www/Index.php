@@ -26,7 +26,7 @@
                 <p><a target="content" href="/examples/BasicSetupConstants/README.php">Show</a></p>
 
                 <h2>Basic Setup: files</h2>
-                <p>Setup FirePHP via <i>configuration files</i>. The most flexible and <b>recommended approach</a>.</p>
+                <p>Setup FirePHP via <i>configuration files</i>. The most flexible and <b>recommended approach</b>.</p>
                 <p><a target="content" href="/examples/BasicSetupFiles/README.php">Show</a></p>
 
                 <h2>Framework: simple</h2>

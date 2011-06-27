@@ -14,13 +14,13 @@ require_once(dirname(dirname(dirname(__FILE__))) . '/www/common.php');
 
                     <p>Setup FirePHP the way it is intended to gain maximum configuration freedom.</p>
 
-                    <p>You can browser the source files for this example on <a target="_blank" href="https://github.com/firephp/quickstart/tree/master/examples/BasicSetupFiles/">github</a> or your system (if installed locally) at <b><?php echo $basePath.'/examples/BasicSetupFiles/'; ?></b>.</p>
+                    <p>You can browse the source files for this example on <a target="_blank" href="https://github.com/firephp/quickstart/tree/master/examples/BasicSetupFiles/">github</a> or your system (if installed locally) at <b><?php echo $basePath.'/examples/BasicSetupFiles/'; ?></b>.</p>
 
                     <h2>Some assumptions for this example</h2>
 
                     <ul>
                         <li>The document root is at: <b><?php echo $basePath; ?></b></li>
-                        <li>The application root URL is: <b><?php echo $baseURL; ?>/examples/BasicSetupFiles/public/</b> (i.e. The URL to the root of this example which we are treating as an application)</li>
+                        <li>The application root URL is: <b><?php echo $baseURL; ?>/examples/BasicSetupFiles/public/</b> (i.e. The URL to the root of the public pages of this example which we are treating as an application)</li>
                         <li>Thus the <a target="_blank" href="http://docs.sourcemint.org/firephp.org/firephp/1/-docs/Concepts#insight-server-path">Insight Server Path</a> is: <b>/examples/BasicSetupFiles/public/</b></li>
                     </ul>
 
