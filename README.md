@@ -54,7 +54,7 @@ On a UNIX system with `git` installed:
 Examples
 ========
 
-  * `/examples/BasicSetupConstants/` - How to use FirePHP with the least amount of work.
+  * `/examples/BasicSetupConstants/` - How to use FirePHP in its simplest form.
   * `/examples/BasicSetupFiles/` - Minimal FirePHP setup using configuration files (**RECOMMENDED**).
   * `/examples/ZendFramework-1/` - How to use FirePHP with [ZendFramework](http://framework.zend.com/) based on
     the [ZendFramework Quick Start Application](http://framework.zend.com/manual/en/learning.quickstart.html).
