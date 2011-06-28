@@ -9,7 +9,7 @@ require_once(dirname(dirname(dirname(__FILE__))) . '/www/common.php');
     <body><table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%">
         <tr>
             <td>
-                <div style="overflow-y: scroll; height: 300px; padding: 10px;">
+                <div style="overflow-y: scroll; height: 350px; padding: 10px;">
                     <h1>Framework: simple</h1>
 
                     <p>This example shows how to use FirePHP with a framework in its simplest form. The framework chosen for this
@@ -53,9 +53,25 @@ require_once(dirname(dirname(dirname(__FILE__))) . '/www/common.php');
                         </li>
                     </ul>
 
-                    <h2>More Information</h2>
+                    <h2>Quick Start Application Changes</h2>
 
-                    <p>See: <a target="_blank" href="http://docs.sourcemint.org/firephp.org/firephp/1/-docs/Configuration/Constants">http://docs.sourcemint.org/firephp.org/firephp/1/-docs/Configuration/Constants</a></p>
+                    <p>The following changes have been made to the Quick Start Application in order to integrate FirePHP:</p>
+
+                    <ul>
+                        <li>Configure and include FirePHP (package.json and credentials.json files were also added - see <i>#2</i> under <i>Instructions</i> above)  (Show: <a target="example-content" href="https://github.com/firephp/quickstart/blob/b78d912f0cc1ada49596c883551f3f892b9f2585/examples/FrameworkSimple/public/index.php#L6-7">/examples/FrameworkSimple/public/index.php#L6-7</a>)</li>
+                        <li>Log incoming <i>$_GET</i> and <i>$_POST</i> variables (Show: <a target="example-content" href="https://github.com/firephp/quickstart/blob/b78d912f0cc1ada49596c883551f3f892b9f2585/examples/FrameworkSimple/public/index.php#L10-12">/examples/FrameworkSimple/public/index.php#L10-12</a>)</li>
+                        <li>Log controller exceptions (Show: <a target="example-content" href="https://github.com/firephp/quickstart/blob/b78d912f0cc1ada49596c883551f3f892b9f2585/examples/FrameworkSimple/application/controllers/ErrorController.php#L10">/examples/FrameworkSimple/application/controllers/ErrorController.php#L10</a>)</li>
+                        <li>Log form values before saving (Show: <a target="example-content" href="https://github.com/firephp/quickstart/blob/b78d912f0cc1ada49596c883551f3f892b9f2585/examples/FrameworkSimple/application/controllers/GuestbookController.php#L25">/examples/FrameworkSimple/application/controllers/GuestbookController.php#L25</a>)</li>
+                    </ul>
+
+                    <h2>Notes</h2>
+
+                    <ul>
+                        <li>The <i>FirePHP/Wildfire</i> implementation shipped with Zend Framework is completely bypassed.
+                            This should be the case with any framework as <i>FirePHP 1.0</i> is intended to be loaded prior to the framework.</li>
+                        <li>A framework may hook into FirePHP to provide internal information. See <a target="_blank" href="http://docs.sourcemint.org/firephp.org/firephp/1/-docs/Concepts#frameworks">Concepts</a>.</li>
+                        <li>Existing framework integrations can be found <a target="_blank" href="http://docs.sourcemint.org/firephp.org/firephp/1/-docs/Integrations">here</a>.</li>
+                    </ul>
                 </div>
             </td>
         </tr>
