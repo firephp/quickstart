@@ -21,6 +21,9 @@ class GuestbookController extends Zend_Controller_Action
 
         if ($this->getRequest()->isPost()) {
             if ($form->isValid($request->getPost())) {
+
+                FirePHP::to('page')->console()->label('Form Values')->log($form->getValues());
+
                 $comment = new Application_Model_Guestbook($form->getValues());
                 $mapper  = new Application_Model_GuestbookMapper();
                 $mapper->save($comment);
