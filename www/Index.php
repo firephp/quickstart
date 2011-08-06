@@ -17,7 +17,7 @@
 
                 <p><a target="_blank" href="http://docs.sourcemint.org/firephp.org/firephp/1">Official FirePHP Documentation</a></p>
 
-                <p style="background-color: #FFDBDB; text-a;ign: center; padding: 5px; border: 1px solid #9c9c9c;">Required: <a target="_blank" href="http://docs.sourcemint.org/firephp.org/firephp/1/-docs/Clients">DeveloperCompanion</a></p>
+                <p style="background-color: #FFDBDB; text-a;ign: center; padding: 5px; border: 1px solid #9c9c9c;">Required: <a target="_blank" href="http://docs.sourcemint.org/firephp.org/firephp/1/-docs/Clients#devcomp">DeveloperCompanion</a></p>
 
                 <br/>
 
