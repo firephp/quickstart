@@ -1,7 +1,7 @@
 Getting started with FirePHP 1.0
 ================================
 
-*Version: v0.1.2*
+*Version: v0.1.3*
 
 *Stability: dev*
 
