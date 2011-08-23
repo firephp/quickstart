@@ -1,5 +1,5 @@
 {
-    "boot": "github.com/firephp/quickstart/",
+    "boot": "github.com/firephp/quickstart/workspace/",
     "engine": [
         "node"
     ],
@@ -7,7 +7,7 @@
         "location": "./program.packages.json"
     },
     "packages": {
-        "github.com/firephp/quickstart/": {
+        "github.com/firephp/quickstart/workspace/": {
             "locator": {
                 "location": "./"
             }

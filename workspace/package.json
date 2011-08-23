@@ -1,10 +1,11 @@
 {
-    "uid": "https://github.com/firephp/quickstart/",
-    "name": "quickstart",
+    "uid": "https://github.com/firephp/quickstart/workspace/",
+    "name": "workspace",
     "repositories": [
         {
             "type": "git",
-            "url": "git://github.com/firephp/quickstart.git"
+            "url": "git://github.com/firephp/quickstart.git",
+            "path": "workspace"
         }
     ],
     "main": "lib/main.js",

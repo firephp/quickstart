@@ -1,0 +1,10 @@
+{
+    "uid": "https://github.com/firephp/quickstart/",
+    "name": "quickstart",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git://github.com/firephp/quickstart.git"
+        }
+    ]
+}
