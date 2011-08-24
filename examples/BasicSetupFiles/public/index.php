@@ -1,5 +1,5 @@
 <?php
-// Include the bootstrap file (just like all other pages of the application)
+// Include the bootstrap file (just like in all other pages of the application)
 require_once(dirname(dirname(__FILE__)) .  '/lib/bootstrap.php');
 // Page-specific code follows
 ?>

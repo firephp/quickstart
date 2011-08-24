@@ -1,19 +1,18 @@
 Getting started with FirePHP 1.0
 ================================
 
-*Version: v0.1.3*
-
 *Stability: dev*
 
 This project contains everything you need to get started with hands-on learning about [FirePHP 1.0](http://docs.sourcemint.org/firephp.org/firephp/1) 
 and includes examples on how to use FirePHP in various scenarios.
 
-You can install this project to:
+You can install this project (or view online at [demo.firephp.org](http://demo.firephp.org/)) to:
 
-  * Explore all FirePHP features with examples from popular open source projects
+  * Explore all FirePHP features with examples from popular open source projects (*Not Yet Implemented*)
   * Learn how to install and configure FirePHP by example
-  * Learn how to integrate FirePHP into frameworks by example
-  * Learn how to integrate FirePHP into applications by example
+  * Learn how to integrate FirePHP into libraries by example (*Not Yet Implemented*)
+  * Learn how to integrate FirePHP into applications by example (*Not Yet Implemented*)
+  * Learn how to integrate FirePHP into frameworks by example (*Not Yet Implemented*)
 
 Relevant third party projects are bundled meaning this project is quite large when downloading. If you are looking for documentation
 on how to install and use FirePHP, and you do not need in-depth examples, please refer to the official
