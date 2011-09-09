@@ -1,6 +1,6 @@
-The MIT License: http://www.opensource.org/licenses/mit-license.php
+[MIT License](http://www.opensource.org/licenses/mit-license.php)
 
-Copyright (c) 2008-2010 Christoph Dorn
+Copyright (c) 2007+ [Christoph Dorn](http://www.christophdorn.com/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -2,46 +2,38 @@
 // Authors:
 // - cadorn, Christoph Dorn <christoph@christophdorn.com>, Copyright 2007, New BSD License
 // - qbbr, Sokolov Innokenty <sokolov.innokenty@gmail.com>, Copyright 2011, New BSD License
+// - cadorn, Christoph Dorn <christoph@christophdorn.com>, Copyright 2011, MIT License
+
 /**
  * ***** BEGIN LICENSE BLOCK *****
  *  
- * This file is part of FirePHP (http://www.firephp.org/).
+ * [MIT License](http://www.opensource.org/licenses/mit-license.php)
  * 
- * Software License Agreement (New BSD License)
+ * Copyright (c) 2007+ [Christoph Dorn](http://www.christophdorn.com/)
  * 
- * Copyright (c) 2006-2011, Christoph Dorn
- * All rights reserved.
- * 
- * Redistribution and use in source and binary forms, with or without modification,
- * are permitted provided that the following conditions are met:
- * 
- *     * Redistributions of source code must retain the above copyright notice,
- *       this list of conditions and the following disclaimer.
- * 
- *     * Redistributions in binary form must reproduce the above copyright notice,
- *       this list of conditions and the following disclaimer in the documentation
- *       and/or other materials provided with the distribution.
- * 
- *     * Neither the name of Christoph Dorn nor the names of its
- *       contributors may be used to endorse or promote products derived from this
- *       software without specific prior written permission.
- * 
- * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
- * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
- * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
- * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
- * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
- * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
- * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
- * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
- * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
  * 
  * ***** END LICENSE BLOCK *****
  * 
- * @copyright   Copyright (C) 2007-2011 Christoph Dorn
+ * @copyright   Copyright (C) 2007+ Christoph Dorn
  * @author      Christoph Dorn <christoph@christophdorn.com>
- * @license     http://www.opensource.org/licenses/bsd-license.php
+ * @license     [MIT License](http://www.opensource.org/licenses/mit-license.php)
  * @package     FirePHPCore
  */
 
@@ -85,12 +77,12 @@ class FB
      * Enable and disable logging to Firebug
      * 
      * @see FirePHP->setEnabled()
-     * @param boolean $Enabled TRUE to enable, FALSE to disable
+     * @param boolean $enabled TRUE to enable, FALSE to disable
      * @return void
      */
-    public static function setEnabled($Enabled)
+    public static function setEnabled($enabled)
     {
-        FirePHP::getInstance(true)->setEnabled($Enabled);
+        FirePHP::getInstance(true)->setEnabled($enabled);
     }
   
     /**
@@ -110,25 +102,25 @@ class FB
      * Filters are used to exclude object members.
      * 
      * @see FirePHP->setObjectFilter()
-     * @param string $Class The class name of the object
-     * @param array $Filter An array or members to exclude
+     * @param string $class The class name of the object
+     * @param array $filter An array or members to exclude
      * @return void
      */
-    public static function setObjectFilter($Class, $Filter)
+    public static function setObjectFilter($class, $filter)
     {
-      FirePHP::getInstance(true)->setObjectFilter($Class, $Filter);
+      FirePHP::getInstance(true)->setObjectFilter($class, $filter);
     }
   
     /**
      * Set some options for the library
      * 
      * @see FirePHP->setOptions()
-     * @param array $Options The options to be set
+     * @param array $options The options to be set
      * @return void
      */
-    public static function setOptions($Options)
+    public static function setOptions($options)
     {
-        FirePHP::getInstance(true)->setOptions($Options);
+        FirePHP::getInstance(true)->setOptions($options);
     }
 
     /**
@@ -146,7 +138,7 @@ class FB
      * Log object to firebug
      * 
      * @see http://www.firephp.org/Wiki/Reference/Fb
-     * @param mixed $Object
+     * @param mixed $object
      * @return true
      * @throws Exception
      */
@@ -163,13 +155,13 @@ class FB
      *   Collapsed: [true|false]
      *   Color:     [#RRGGBB|ColorName]
      *
-     * @param string $Name
-     * @param array $Options OPTIONAL Instructions on how to log the group
+     * @param string $name
+     * @param array $options OPTIONAL Instructions on how to log the group
      * @return true
      */
-    public static function group($Name, $Options=null)
+    public static function group($name, $options=null)
     {
-        return FirePHP::getInstance(true)->group($Name, $Options);
+        return FirePHP::getInstance(true)->group($name, $options);
     }
 
     /**
@@ -187,97 +179,97 @@ class FB
      * Log object with label to firebug console
      *
      * @see FirePHP::LOG
-     * @param mixes $Object
-     * @param string $Label
+     * @param mixes $object
+     * @param string $label
      * @return true
      * @throws Exception
      */
-    public static function log($Object, $Label=null)
+    public static function log($object, $label=null)
     {
-        return self::send($Object, $Label, FirePHP::LOG);
+        return self::send($object, $label, FirePHP::LOG);
     }
 
     /**
      * Log object with label to firebug console
      *
      * @see FirePHP::INFO
-     * @param mixes $Object
-     * @param string $Label
+     * @param mixes $object
+     * @param string $label
      * @return true
      * @throws Exception
      */
-    public static function info($Object, $Label=null)
+    public static function info($object, $label=null)
     {
-        return self::send($Object, $Label, FirePHP::INFO);
+        return self::send($object, $label, FirePHP::INFO);
     }
 
     /**
      * Log object with label to firebug console
      *
      * @see FirePHP::WARN
-     * @param mixes $Object
-     * @param string $Label
+     * @param mixes $object
+     * @param string $label
      * @return true
      * @throws Exception
      */
-    public static function warn($Object, $Label=null)
+    public static function warn($object, $label=null)
     {
-        return self::send($Object, $Label, FirePHP::WARN);
+        return self::send($object, $label, FirePHP::WARN);
     }
 
     /**
      * Log object with label to firebug console
      *
      * @see FirePHP::ERROR
-     * @param mixes $Object
-     * @param string $Label
+     * @param mixes $object
+     * @param string $label
      * @return true
      * @throws Exception
      */
-    public static function error($Object, $Label=null)
+    public static function error($object, $label=null)
     {
-        return self::send($Object, $Label, FirePHP::ERROR);
+        return self::send($object, $label, FirePHP::ERROR);
     }
 
     /**
      * Dumps key and variable to firebug server panel
      *
      * @see FirePHP::DUMP
-     * @param string $Key
-     * @param mixed $Variable
+     * @param string $key
+     * @param mixed $variable
      * @return true
      * @throws Exception
      */
-    public static function dump($Key, $Variable)
+    public static function dump($key, $variable)
     {
-        return self::send($Variable, $Key, FirePHP::DUMP);
+        return self::send($variable, $key, FirePHP::DUMP);
     }
 
     /**
      * Log a trace in the firebug console
      *
      * @see FirePHP::TRACE
-     * @param string $Label
+     * @param string $label
      * @return true
      * @throws Exception
      */
-    public static function trace($Label)
+    public static function trace($label)
     {
-        return self::send($Label, FirePHP::TRACE);
+        return self::send($label, FirePHP::TRACE);
     }
 
     /**
      * Log a table in the firebug console
      *
      * @see FirePHP::TABLE
-     * @param string $Label
-     * @param string $Table
+     * @param string $label
+     * @param string $table
      * @return true
      * @throws Exception
      */
-    public static function table($Label, $Table)
+    public static function table($label, $table)
     {
-        return self::send($Table, $Label, FirePHP::TABLE);
+        return self::send($table, $label, FirePHP::TABLE);
     }
 
 }

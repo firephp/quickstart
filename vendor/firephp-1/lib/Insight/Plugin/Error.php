@@ -51,7 +51,7 @@ class Insight_Plugin_Error extends Insight_Plugin_API {
         $this->errorConsole = $console;
         $this->errorTypes = $types;
 
-        $this->_conditionalErrorConsole = $this->errorConsole->on('FirePHP: Show all PHP Errors (except:)');
+        $this->_conditionalErrorConsole = $this->errorConsole->on('Insight: Show all PHP Errors (except:)');
 
         if ($this->_errorReportingInfo === null) {
             $this->_errorReportingInfo = self::parseErrorReportingBitmask(error_reporting());

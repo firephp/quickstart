@@ -161,7 +161,7 @@ class Insight_Util {
         $host = $_SERVER['HTTP_HOST'];
         $port = $_SERVER['SERVER_PORT'];
         $parts = explode(':', $host);
-        // port specified in $_SERVER['HTTP_HOST'] takes precedense
+        // port specified in $_SERVER['HTTP_HOST'] takes precedence
         if(count($parts)==2) {
             $host = $parts[0];
             $port = $parts[1];
