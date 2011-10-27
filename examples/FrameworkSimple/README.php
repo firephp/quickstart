@@ -21,7 +21,7 @@ require_once(dirname(dirname(dirname(__FILE__))) . '/www/examples/header.php');
 <h2>Instructions</h2>
 
 <ol>
-    <li>Open <i>DeveloperCompanion</i> and click <i>New Workspace</i> (<a target="_blank" href="http://docs.sourcemint.org/firephp.org/firephp/1/-docs/Configuration/Constants">detailed instructions</a>)
+    <li>Open <i>DeveloperCompanion</i> and click <i>New Workspace</i> (<a target="_blank" href="http://docs.sourcemint.org/firephp.org/firephp/1/-docs/Authorizing">detailed instructions</a>)
 
         <p style="padding: 5px; border: 1px solid #acacac; background-color: #DBFFE6;"><span style="color: #8c8c8c; font-weight: bold;">Homepage URL:</span><b><br/><?php echo $baseURL; ?>/examples/FrameworkSimple/public/</b></p>
 
