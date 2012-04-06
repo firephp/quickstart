@@ -15,6 +15,17 @@ $baseURL = 'http://' . $hostname;
 
 $basePath = dirname(dirname(__FILE__));
 
+$configPath = $basePath . '/config.php';
+$defaultConfigPath = $basePath . '/config.default.php';
+if (file_exists($configPath)) {
+	require_once($configPath);
+} else
+if (file_exists($defaultConfigPath)) {
+	require_once($defaultConfigPath);
+}
+if (defined('FIREPHP_QUICKSTART_BASE_URL_PATH')) {
+	$baseURL .= constant('FIREPHP_QUICKSTART_BASE_URL_PATH');
+}
 
 function renderSource($file)
 {
