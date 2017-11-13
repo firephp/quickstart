@@ -1,3 +1,9 @@
+
+**DEPRECATED: For up-to-date information see https://github.com/firephp/firephp**
+
+---
+
+
 Getting started with FirePHP 1.0
 ================================
 
