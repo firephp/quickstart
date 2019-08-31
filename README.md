@@ -1,5 +1,5 @@
 
-**DEPRECATED: For up-to-date information see https://github.com/firephp/firephp**
+**DEPRECATED: For up-to-date information see https://github.com/firephp/insight**
 
 ---
 
